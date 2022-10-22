@@ -1,0 +1,71 @@
+.fullinter {
+    height: 50px;
+    width: 99%;
+  }
+  
+  button {
+    transition: ease-out 0.25s;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+  }
+  
+  button:hover {
+    color: blue;
+    background-color: lightblue;
+  }
+  
+  body {
+    height: 100%;
+    width: 99%;
+  }
+  
+  .color {
+    background: repeating-linear-gradient(45deg, #2ec4ff, aqua 100px);
+  }
+  
+  #main {
+    height: 100vh
+  }
+  
+  .docs {
+    display: inline;
+    height: 100px;
+    width: 100px;
+  }
+  
+  .meta {
+    height: 50px;
+    width: 100px;
+    display: inline;
+  }
+  
+  .meta:hover {
+    height: 50px;
+    width: 100px;
+    color: blue;
+    background-color: lightblue;
+  }
+  
+  .docs:hover {
+    height: 100px;
+    width: 100px;
+    color: blue;
+    background-color: lightblue;
+    animation: hoverSpinAni 2s;
+    animation-iteration-count: 1;
+  }
+  
+  @keyframes hoverSpinAni {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  #user {
+    height: 60px;
+    width: 20%;
+  }

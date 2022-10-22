@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>English Website</title>
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    /> -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body class="color" id="main">
+    <h1>
+      English website
+      <sup><button class="meta" onclick="infoDisplay()">Info</button></sup>
+
+      <sup
+        ><button onclick="gotoLink(this)" class="meta" value="setting.html">
+          settings
+        </button></sup
+      >
+      <hr />
+    </h1>
+
+    <h2>Documents</h2>
+    <button onclick="gotoLink(this)" value="scienceCook.html" class="docs">
+      Cooking With Science
+    </button>
+
+    <button onclick="gotoLink(this)" value="froot.html" class="docs">
+      Plant World (part 1)
+    </button>
+
+    <button onclick="gotoLink(this)" value="froot1.html" class="docs">
+      Plant World (part 2)
+    </button>
+
+    <hr />
+
+    <h1>Programming</h1>
+
+    <sup
+      ><sup
+        ><button onclick="gotoLink(this)" value="webDev.html" class="docs">
+          Web development (part 1)
+        </button></sup
+      ></sup
+    >
+
+    <sup
+      ><sup
+        ><button onclick="gotoLink(this)" value="webDev1.html" class="docs">
+          Web development (part 2)
+        </button></sup
+      ></sup
+    >
+
+    <sub
+      ><button onclick="gotoLink(this)" value="dev.html" class="docs">
+        Programming
+      </button></sub
+    >
+
+    <sub
+      ><button onclick="gotoLink(this)" value="webDegs.html" class="docs">
+        Web degsign
+      </button></sub
+    >
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
